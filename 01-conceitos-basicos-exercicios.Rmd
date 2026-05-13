@@ -1,14 +1,1 @@
 ## - Exercícios - Introdução à disciplina e conceitos básicos
-
-## - Apresentação da disciplina
-
-## - Objetivos da disciplina
-
-## - Conceitos básicos
-
-## - Aprendizado estatístico
-
-## - Modelos, dados e incerteza
-
-## - Aplicações
-

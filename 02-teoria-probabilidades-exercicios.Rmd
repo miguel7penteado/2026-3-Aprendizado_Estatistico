@@ -1,15 +1,2 @@
 ## - Exercícios - Elementos da teoria de probabilidades
 
-## - Espaços de probabilidade
-
-## - Variáveis aleatórias
-
-## - Eventos
-
-## - Axiomas da probabilidade
-
-## - Probabilidade condicional
-
-## - Independência
-
-## - Distribuições de probabilidade

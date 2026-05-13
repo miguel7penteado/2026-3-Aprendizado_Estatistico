@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Aula 13 - Regressão linear | Disciplina de Aprendizado Estatístico</title>
+  <title>Aula 17 - Agrupamento | Disciplina de Aprendizado Estatístico</title>
   <meta name="description" content="Este livreto reúne anotações, reflexões e conteúdos desenvolvidos ao longo das aulas da disciplina ." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Aula 13 - Regressão linear | Disciplina de Aprendizado Estatístico" />
+  <meta property="og:title" content="Aula 17 - Agrupamento | Disciplina de Aprendizado Estatístico" />
   <meta property="og:type" content="book" />
   <meta property="og:image" content="your book url like https://bookdown.org/yihui/bookdown/images/cover.jpg" />
   <meta property="og:description" content="Este livreto reúne anotações, reflexões e conteúdos desenvolvidos ao longo das aulas da disciplina ." />
   <meta name="github-repo" content="miguel7penteado/2026-3-Aprendizado_Estatistico" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Aula 13 - Regressão linear | Disciplina de Aprendizado Estatístico" />
+  <meta name="twitter:title" content="Aula 17 - Agrupamento | Disciplina de Aprendizado Estatístico" />
   
   <meta name="twitter:description" content="Este livreto reúne anotações, reflexões e conteúdos desenvolvidos ao longo das aulas da disciplina ." />
   <meta name="twitter:image" content="your book url like https://bookdown.org/yihui/bookdown/images/cover.jpg" />
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="exercícios---processos-de-decisão-markovianos-e-aprendizado-por-reforço.html"/>
-<link rel="next" href="exercícios---regressão-linear.html"/>
+<link rel="prev" href="exrecícios---regressão-não-linear-e-logística.html"/>
+<link rel="next" href="exercícios---agrupamento.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -240,28 +240,28 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="regressão-linear" class="section level1 hasAnchor" number="13">
-<h1><span class="header-section-number">Aula 13</span> - Regressão linear<a href="regressão-linear.html#regress%C3%A3o-linear" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="modelo-de-regressão-linear-simples" class="section level2 hasAnchor" number="13.1">
-<h2><span class="header-section-number">13.1</span> - Modelo de regressão linear simples<a href="regressão-linear.html#modelo-de-regress%C3%A3o-linear-simples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="agrupamento-1" class="section level1 hasAnchor" number="17">
+<h1><span class="header-section-number">Aula 17</span> - Agrupamento<a href="agrupamento-1.html#agrupamento-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="aprendizado-não-supervisionado" class="section level2 hasAnchor" number="17.1">
+<h2><span class="header-section-number">17.1</span> - Aprendizado não supervisionado<a href="agrupamento-1.html#aprendizado-n%C3%A3o-supervisionado" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="modelo-de-regressão-linear-múltipla" class="section level2 hasAnchor" number="13.2">
-<h2><span class="header-section-number">13.2</span> - Modelo de regressão linear múltipla<a href="regressão-linear.html#modelo-de-regress%C3%A3o-linear-m%C3%BAltipla" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="conceito-de-agrupamento" class="section level2 hasAnchor" number="17.2">
+<h2><span class="header-section-number">17.2</span> - Conceito de agrupamento<a href="agrupamento-1.html#conceito-de-agrupamento" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="estimação-dos-parâmetros" class="section level2 hasAnchor" number="13.3">
-<h2><span class="header-section-number">13.3</span> - Estimação dos parâmetros<a href="regressão-linear.html#estima%C3%A7%C3%A3o-dos-par%C3%A2metros" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="medidas-de-distância" class="section level2 hasAnchor" number="17.3">
+<h2><span class="header-section-number">17.3</span> - Medidas de distância<a href="agrupamento-1.html#medidas-de-dist%C3%A2ncia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="método-dos-mínimos-quadrados" class="section level2 hasAnchor" number="13.4">
-<h2><span class="header-section-number">13.4</span> - Método dos mínimos quadrados<a href="regressão-linear.html#m%C3%A9todo-dos-m%C3%ADnimos-quadrados" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="agrupamento-hierárquico" class="section level2 hasAnchor" number="17.4">
+<h2><span class="header-section-number">17.4</span> - Agrupamento hierárquico<a href="agrupamento-1.html#agrupamento-hier%C3%A1rquico" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="diagnóstico-do-modelo" class="section level2 hasAnchor" number="13.5">
-<h2><span class="header-section-number">13.5</span> - Diagnóstico do modelo<a href="regressão-linear.html#diagn%C3%B3stico-do-modelo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="k-means" class="section level2 hasAnchor" number="17.5">
+<h2><span class="header-section-number">17.5</span> - K-means<a href="agrupamento-1.html#k-means" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="avaliação-da-regressão" class="section level2 hasAnchor" number="13.6">
-<h2><span class="header-section-number">13.6</span> - Avaliação da regressão<a href="regressão-linear.html#avalia%C3%A7%C3%A3o-da-regress%C3%A3o" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="avaliação-de-agrupamentos" class="section level2 hasAnchor" number="17.6">
+<h2><span class="header-section-number">17.6</span> - Avaliação de agrupamentos<a href="agrupamento-1.html#avalia%C3%A7%C3%A3o-de-agrupamentos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="interpretação-dos-coeficientes" class="section level2 hasAnchor" number="13.7">
-<h2><span class="header-section-number">13.7</span> - Interpretação dos coeficientes<a href="regressão-linear.html#interpreta%C3%A7%C3%A3o-dos-coeficientes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="aplicações-2" class="section level2 hasAnchor" number="17.7">
+<h2><span class="header-section-number">17.7</span> - Aplicações<a href="agrupamento-1.html#aplica%C3%A7%C3%B5es-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 
 </div>
 </div>
@@ -270,8 +270,8 @@
           </div>
         </div>
       </div>
-<a href="exercícios---processos-de-decisão-markovianos-e-aprendizado-por-reforço.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="exercícios---regressão-linear.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="exrecícios---regressão-não-linear-e-logística.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="exercícios---agrupamento.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -302,7 +302,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/miguel7penteado/2026-3-Aprendizado_Estatistico/edit/main/09-regressao-linear-aula.Rmd",
+    "link": "https://github.com/miguel7penteado/2026-3-Aprendizado_Estatistico/edit/main/11-agrupamento-aula.Rmd",
     "text": "Edit"
   },
   "history": {

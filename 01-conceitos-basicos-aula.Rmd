@@ -19,3 +19,22 @@
 
 ## - Aplicações
 
+```{r 01-Aula_01-aula-html, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+rmarkdown::render("01-conceitos-basicos-aula.Rmd", output_dir="docs", output_file ="temporario.html" , output_format = "html_document") ; 
+
+utils::browseURL("docs/temporario.html")
+
+```
+
+
+```{r 01-Aula_01-aula-doc, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+rmarkdown::render("01-conceitos-basicos-aula.Rmd", output_dir="docs", output_file ="temporario.docx" , output_format = "word_document") ; utils::browseURL("docs/temporario.docx")
+```
+
+
+```{r 01-Aula_01-aula-pdf, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+rmarkdown::render("01-conceitos-basicos-aula.Rmd", output_dir="docs", output_file ="temporario.pdf" , output_format = rmarkdown::pdf_document( toc = TRUE, number_sections = TRUE, latex_engine = "xelatex" )) ; utils::browseURL("docs/temporario.pdf")
+```
+
+
