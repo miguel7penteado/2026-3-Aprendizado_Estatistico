@@ -1,5 +1,12 @@
 # - Introdução à disciplina e conceitos básicos
 
+## Literatura
+
+- Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani. An Introduction to Statistical Learning with Applications in R. Second Edition, Springer 2021 (https://www.statlearning.com/).
+- S. Russel, P. Norvig. Artificial Intelligence – A Modern Approach, Pearson, 2018.
+- L. Wasserman. All of Statistics, Springer, 2004.
+- T. Hastie, R. Tibshirani, J. Friedman. The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition, Springer 2009.
+
 ## - Apresentação da disciplina
 
 ## - Objetivos da disciplina
