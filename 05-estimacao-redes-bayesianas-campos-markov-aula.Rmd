@@ -1,0 +1,15 @@
+# - Estimação de redes bayesianas e campos de Markov
+
+## - Estimação de parâmetros
+
+## - Estimação de estrutura
+
+## - Aprendizado em redes bayesianas
+
+## - Aprendizado em campos de Markov
+
+## - Inferência probabilística
+
+## - Algoritmos de estimação
+
+## - Avaliação dos modelos

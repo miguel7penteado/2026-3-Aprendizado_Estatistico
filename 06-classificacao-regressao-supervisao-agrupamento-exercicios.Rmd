@@ -1,0 +1,20 @@
+# - Exercícios - Classificação e regressão, supervisão e agrupamento
+
+## - Classificação
+
+## - Regressão
+
+## - Aprendizado supervisionado
+
+## - Agrupamento
+
+## - Acurácia
+
+## - Interpretabilidade
+
+## - Viés e variância
+
+## - Avaliação de modelos
+
+## - Validação cruzada
+

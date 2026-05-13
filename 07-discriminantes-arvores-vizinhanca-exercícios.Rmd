@@ -1,0 +1,2 @@
+# - Exercícios - Discriminantes lineares, árvores de decisão e classificação por vizinhança
+

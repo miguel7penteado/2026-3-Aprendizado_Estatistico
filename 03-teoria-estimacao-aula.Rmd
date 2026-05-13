@@ -1,0 +1,16 @@
+# - Teoria de estimação
+
+## - Estimação frequentista
+
+## - Estimadores
+
+## - Propriedades dos estimadores
+
+## - Máxima verossimilhança
+
+## - Estimação bayesiana
+
+## - Distribuição a priori
+
+## - Distribuição a posteriori
+

@@ -1,0 +1,15 @@
+# - Regressão linear
+
+## - Modelo de regressão linear simples
+
+## - Modelo de regressão linear múltipla
+
+## - Estimação dos parâmetros
+
+## - Método dos mínimos quadrados
+
+## - Diagnóstico do modelo
+
+## - Avaliação da regressão
+
+## - Interpretação dos coeficientes

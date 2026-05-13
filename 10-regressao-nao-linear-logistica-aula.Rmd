@@ -1,0 +1,15 @@
+# - Regressão não-linear e logística
+
+## - Regressão não-linear
+
+## - Modelos não-lineares
+
+## - Regressão logística
+
+## - Classificação binária
+
+## - Função logística
+
+## - Estimação dos parâmetros
+
+## - Avaliação do modelo

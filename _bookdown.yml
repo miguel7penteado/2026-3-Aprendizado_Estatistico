@@ -1,0 +1,35 @@
+output_dir: "docs"
+book_filename: "2026-AprendizadoEsatistico"
+delete_merged_file: true
+rmd_files: [
+            "index.Rmd",
+            "01-conceitos-basicos-aula.Rmd",
+            "01-conceitos-basicos-exercicios.Rmd",
+            "02-teoria-probabilidades-aula.Rmd",
+            "02-teoria-probabilidades-exercicios.Rmd",
+            "03-teoria-estimacao-aula.Rmd",
+            "03-teoria-estimacao-exercicios.Rmd",
+            "04-redes-bayesianas-campos-markov-aula.Rmd",
+            "04-redes-bayesianas-campos-markov-exercicios.Rmd",
+            "05-estimacao-redes-bayesianas-campos-markov-aula.Rmd",
+            "05-estimacao-redes-bayesianas-campos-markov-exercicios.Rmd",
+            "06-classificacao-regressao-supervisao-agrupamento-aula.Rmd",
+            "06-classificacao-regressao-supervisao-agrupamento-exercicios.Rmd",
+            "07-discriminantes-arvores-vizinhanca-aula.Rmd",
+            "07-discriminantes-arvores-vizinhanca-exercícios.Rmd",
+            "08-processos-decisao-markovianos-reforco-aula.Rmd",
+            "08-processos-decisao-markovianos-reforco-exercicios.Rmd",
+            "09-regressao-linear-aula.Rmd",
+            "09-regressao-linear-exercicios.Rmd",
+            "10-regressao-nao-linear-logistica-aula.Rmd",
+            "10-regressao-nao-linear-logistica-exercicios.Rmd",
+            "11-agrupamento-aula.Rmd",
+            "11-agrupamento-exercicios.Rmd",
+            "12-arvores-florestas-classificadores-aula.Rmd",
+            "12-arvores-florestas-classificadores-exercicios.Rmd"
+]
+
+language:
+  ui:
+    chapter_name: "Aula "
+

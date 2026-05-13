@@ -1,0 +1,16 @@
+# - Redes bayesianas e campos de Markov
+
+## - Modelos probabilísticos gráficos
+
+## - Redes bayesianas
+
+## - Independência condicional
+
+## - Campos de Markov
+
+## - Grafos direcionados
+
+## - Grafos não direcionados
+
+## - Aplicações
+

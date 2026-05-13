@@ -1,0 +1,104 @@
+---
+title: "Disciplina de Aprendizado Estatístico"
+author: "Aluno Miguél Suares"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+url: your book url like https://bookdown.org/yihui/bookdown
+cover-image: images/cover.jpg
+description: |
+  Este livreto reúne anotações, reflexões e conteúdos desenvolvidos ao longo das aulas da disciplina .
+link-citations: yes
+github-repo: miguel7penteado/2026-3-Aprendizado_Estatistico
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plantuml)
+
+
+# Detectar o sistema operacional
+so <- Sys.info()[["sysname"]]
+
+if (so == "Linux")
+{
+  plantumlOptions(jar_path = "/usr/share/java/plantuml.jar")  
+}else 
+  if (so == "Windows") 
+  {
+    #plantumlOptions(jar_path = "C:/PROGRA~1/COMMON~1/Oracle/Java/libs/plantuml-1.2025.4.jar")
+    plantumlOptions(jar_path = "C:/Users/sp-miguel/java/plantuml-1.2026.2.jar")
+  }else
+  {
+    print(paste("Sistema não reconhecido:", so))
+  }
+
+
+knitr::knit_engines$set(plantuml = function(options)
+{
+    code <- paste(options$code, collapse = "\n")
+  
+  if (is.null(options$plantuml.path)) 
+  {
+    path <-  "."
+  } else
+    {
+      path <- options$plantuml.path
+    }
+  
+  dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  fig <- paste0(options$label, ".", "svg")
+  fig <- file.path(path, fig)
+  if (options$eval) plot(x = plantuml(code), vector=FALSE, file=fig)
+  knitr::engine_output(options, out = list(knitr::include_graphics(fig)))
+})
+```
+
+# Sobre estas anotações {.unnumbered}
+
+—————————————————————————————————————————————
+
+Estas anotações são apenas lembretes das aulas expostas em sala, durante a disciplina de Aprendizado Estatístico.
+
+## ACESSO AO GITBOOK CELULAR
+
+—————————————————————————————————————————————
+
+#### <https://miguel7penteado.github.io/2026-3-Aprendizado_Estatistico/>
+
+[![Endereço do Site da Disciplina no GITHUB](01-aula01/media/){width="534"}](https://github.com/miguel7penteado/2026-3-Aprendizado_Estatistico)
+
+## Leitores de formato de arquivo EPUB para SmartPhone
+
+—————————————————————————————————————————————
+
+### ANDROID
+
+#### **Moon+ Reader**
+
+[![Endereço app leitor Moon Reader Plus para ANDROID](01-aula01/media/03-endereco-moon-reader-plus.jpg)](https://play.google.com/store/apps/details?id=com.flyersoft.moonreader)
+
+## Livros Texto da Disciplina
+
+—————————————————————————————————————————————
+
+## Calendário das aulas
+
+—————————————————————————————————————————————
+
+```{r 00-Indice-html, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+rmarkdown::render("index.Rmd", output_dir="docs", output_file ="temporario.html" , output_format = "html_document") ; 
+
+utils::browseURL("docs/temporario.html")
+
+```
+
+```{r 00-Indice-doc, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+rmarkdown::render("index.Rmd", output_dir="docs", output_file ="temporario.docx" , output_format = "word_document") ; utils::browseURL("docs/temporario.docx")
+```
+
+```{r 00-Indice-pdf, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+rmarkdown::render("index.Rmd", output_dir="docs", output_file ="temporario.pdf" , output_format = rmarkdown::pdf_document( toc = TRUE, number_sections = TRUE, latex_engine = "xelatex" )) ; utils::browseURL("docs/temporario.pdf")
+```

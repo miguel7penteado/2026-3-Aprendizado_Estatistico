@@ -1,0 +1,15 @@
+# - Processos de decisão markovianos e aprendizado por reforço
+
+## - Processos de decisão markovianos
+
+## - Estados
+
+## - Ações
+
+## - Recompensas
+
+## - Políticas
+
+## - Função valor
+
+## - Aprendizado por reforço

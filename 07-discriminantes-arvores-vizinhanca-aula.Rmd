@@ -1,0 +1,15 @@
+# - Discriminantes lineares, árvores de decisão e classificação por vizinhança
+
+## - Discriminantes lineares
+
+## - Separabilidade linear
+
+## - Árvores de decisão
+
+## - Critérios de divisão
+
+## - Classificação por vizinhança
+
+## - Método dos k-vizinhos mais próximos
+
+## - Comparação entre métodos

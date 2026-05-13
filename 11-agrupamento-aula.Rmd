@@ -1,0 +1,15 @@
+# - Agrupamento
+
+## - Aprendizado não supervisionado
+
+## - Conceito de agrupamento
+
+## - Medidas de distância
+
+## - Agrupamento hierárquico
+
+## - K-means
+
+## - Avaliação de agrupamentos
+
+## - Aplicações
